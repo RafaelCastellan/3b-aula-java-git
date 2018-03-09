@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="517.0" prefWidth="694.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.MenuPrincipalController">
+    <children>
+        <Button fx:id="button" layoutX="597.0" layoutY="470.0" onAction="#handleButtonAction" prefHeight="17.0" prefWidth="69.0" text="Sair" />
+      <Button layoutX="90.0" layoutY="366.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="118.0" />
+      <ImageView fitHeight="238.0" fitWidth="253.0" layoutX="228.0" layoutY="87.0">
+         <image>
+            <Image url="@../../../../../../../../Desktop/83b63e1216547ef04dda1bcff6d2a6fa.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="217.0" layoutY="366.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="118.0" />
+      <Button layoutX="347.0" layoutY="366.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="118.0" />
+      <Button layoutX="473.0" layoutY="366.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="118.0" />
+      <Button layoutX="480.0" layoutY="372.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="104.0" />
+      <Button layoutX="354.0" layoutY="372.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="104.0" />
+      <Button layoutX="224.0" layoutY="372.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="104.0" />
+      <Button layoutX="97.0" layoutY="372.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="104.0" />
+      <ImageView fitHeight="63.0" fitWidth="69.0" layoutX="372.0" layoutY="375.0">
+         <image>
+            <Image url="@cube_of_rubik_black_white_line_art_coloring_book_colouring-999px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="62.0" layoutX="502.0" layoutY="379.0">
+         <image>
+            <Image url="@35920.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="69.0" fitWidth="76.0" layoutX="111.0" layoutY="372.0">
+         <image>
+            <Image url="@111640_personal_512x512.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="69.0" fitWidth="76.0" layoutX="238.0" layoutY="372.0">
+         <image>
+            <Image url="@PSHE-Citizenship.png" />
+         </image>
+      </ImageView>
+        <Label fx:id="label" alignment="TOP_CENTER" layoutX="115.0" layoutY="441.0" minHeight="16" minWidth="69" text="Cadastro" />
+      <Label fx:id="label1" alignment="TOP_CENTER" layoutX="242.0" layoutY="441.0" minHeight="16" minWidth="69" text="Alunos" />
+      <Label fx:id="label11" alignment="TOP_CENTER" layoutX="372.0" layoutY="441.0" minHeight="16" minWidth="69" text="Apredizagem" />
+      <Label fx:id="label111" alignment="TOP_CENTER" layoutX="498.0" layoutY="442.0" minHeight="16" minWidth="69" text="Relatórios" />
+    </children>
+</AnchorPane>
